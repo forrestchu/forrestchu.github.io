@@ -1,12 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home title on 网络技术123</title>
+    <title>首页 on 网络技术汇</title>
     <link>https://forrestchu.github.io/</link>
-    <description>Recent content in Home title on 网络技术123</description>
+    <description>Recent content in 首页 on 网络技术汇</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="https://forrestchu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>文章搜索</title>
+      <link>https://forrestchu.github.io/post/search/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://forrestchu.github.io/post/search/</guid>
+      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture. Save it somewhere specific as we will be using it in the next step. More complete instructions are available at Install Hugo Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now. Follow the following steps: Clone the</description>
+    </item>
+    
+    <item>
+      <title>欢迎投稿</title>
+      <link>https://forrestchu.github.io/post/contrib/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://forrestchu.github.io/post/contrib/</guid>
+      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates. This document</description>
+    </item>
+    
+    <item>
+      <title>作者简介</title>
+      <link>https://forrestchu.github.io/author/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://forrestchu.github.io/author/</guid>
+      <description>Hugo is a static site engine written in Go. It makes use of a variety of open source projects including: Cobra Viper J Walter Weatherman Cast Learn more and contribute on GitHub.</description>
+    </item>
+    
     <item>
       <title>Markdown Syntax</title>
       <link>https://forrestchu.github.io/sample/markdown-syntax/</link>
@@ -70,43 +97,20 @@ Section 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm
     
     <item>
       <title>Creating a New Theme</title>
-      <link>https://forrestchu.github.io/post/creating-a-new-theme/</link>
+      <link>https://forrestchu.github.io/post/misc-1/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://forrestchu.github.io/post/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
+      <guid>https://forrestchu.github.io/post/misc-1/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme. We&amp;rsquo;ll start with creating a new site with</description>
     </item>
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>https://forrestchu.github.io/post/migrate-from-jekyll/</link>
+      <link>https://forrestchu.github.io/post/misc-2/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://forrestchu.github.io/post/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
-    </item>
-    
-    <item>
-      <title>Hello world!</title>
-      <link>https://forrestchu.github.io/hello_world/</link>
-      <pubDate>Tue, 17 Oct 2017 14:00:45 +0000</pubDate>
-      
-      <guid>https://forrestchu.github.io/hello_world/</guid>
-      <description>Hello world!</description>
-    </item>
-    
-    <item>
-      <title>Hello_world</title>
-      <link>https://forrestchu.github.io/posts/hello_world/</link>
-      <pubDate>Tue, 17 Oct 2017 14:00:45 +0000</pubDate>
-      
-      <guid>https://forrestchu.github.io/posts/hello_world/</guid>
-      <description>aaaaaa
-vvvv
-aaa</description>
+      <guid>https://forrestchu.github.io/post/misc-2/</guid>
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like ▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png should become ▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png Additionally, you&amp;rsquo;ll want any files that should reside at the root (such</description>
     </item>
     
     <item>
@@ -164,72 +168,6 @@ Params # Source Code repository section description = &amp;quot;put your descrip
       <guid>https://forrestchu.github.io/sample/search-shortcode/</guid>
       <description>&amp;nbsp;Note Search Shortcode powered by Algolia
 You can create a search page just by adding search shortcode.</description>
-    </item>
-    
-    <item>
-      <title>Hello_world2</title>
-      <link>https://forrestchu.github.io/archives/hello_world2/</link>
-      <pubDate>Sun, 17 Dec 2017 14:00:45 +0000</pubDate>
-      
-      <guid>https://forrestchu.github.io/archives/hello_world2/</guid>
-      <description>aaaaaa
-vvvv
-aaa</description>
-    </item>
-    
-    <item>
-      <title>Hello_world2</title>
-      <link>https://forrestchu.github.io/blog/hello_world2/</link>
-      <pubDate>Sun, 17 Dec 2017 14:00:45 +0000</pubDate>
-      
-      <guid>https://forrestchu.github.io/blog/hello_world2/</guid>
-      <description>aaaaaa
-vvvv
-aaa</description>
-    </item>
-    
-    <item>
-      <title>Hello_world2</title>
-      <link>https://forrestchu.github.io/entry/hello_world2/</link>
-      <pubDate>Sun, 17 Dec 2017 14:00:45 +0000</pubDate>
-      
-      <guid>https://forrestchu.github.io/entry/hello_world2/</guid>
-      <description>aaaaaa
-vvvv
-aaa</description>
-    </item>
-    
-    <item>
-      <title>Hello_world1</title>
-      <link>https://forrestchu.github.io/archives/hello_world1/</link>
-      <pubDate>Fri, 17 Nov 2017 14:00:45 +0000</pubDate>
-      
-      <guid>https://forrestchu.github.io/archives/hello_world1/</guid>
-      <description>aaaaaa
-vvvv
-aaa</description>
-    </item>
-    
-    <item>
-      <title>Hello_world1</title>
-      <link>https://forrestchu.github.io/blog/hello_world1/</link>
-      <pubDate>Fri, 17 Nov 2017 14:00:45 +0000</pubDate>
-      
-      <guid>https://forrestchu.github.io/blog/hello_world1/</guid>
-      <description>aaaaaa
-vvvv
-aaa</description>
-    </item>
-    
-    <item>
-      <title>Hello_world1</title>
-      <link>https://forrestchu.github.io/entry/hello_world1/</link>
-      <pubDate>Fri, 17 Nov 2017 14:00:45 +0000</pubDate>
-      
-      <guid>https://forrestchu.github.io/entry/hello_world1/</guid>
-      <description>aaaaaa
-vvvv
-aaa</description>
     </item>
     
     <item>
@@ -338,74 +276,6 @@ aaa</description>
       
       <guid>https://forrestchu.github.io/chapter3/4/</guid>
       <description>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
-    </item>
-    
-    <item>
-      <title>Hello_world</title>
-      <link>https://forrestchu.github.io/archives/hello_world/</link>
-      <pubDate>Tue, 17 Oct 2017 14:00:45 +0000</pubDate>
-      
-      <guid>https://forrestchu.github.io/archives/hello_world/</guid>
-      <description>aaaaaa
-vvvv
-aaa</description>
-    </item>
-    
-    <item>
-      <title>Hello_world</title>
-      <link>https://forrestchu.github.io/blog/hello_world/</link>
-      <pubDate>Tue, 17 Oct 2017 14:00:45 +0000</pubDate>
-      
-      <guid>https://forrestchu.github.io/blog/hello_world/</guid>
-      <description>aaaaaa
-vvvv
-aaa</description>
-    </item>
-    
-    <item>
-      <title>Hello_world</title>
-      <link>https://forrestchu.github.io/entry/hello_world/</link>
-      <pubDate>Tue, 17 Oct 2017 14:00:45 +0000</pubDate>
-      
-      <guid>https://forrestchu.github.io/entry/hello_world/</guid>
-      <description>aaaaaa
-vvvv
-aaa</description>
-    </item>
-    
-    <item>
-      <title>About Hugo</title>
-      <link>https://forrestchu.github.io/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://forrestchu.github.io/about/</guid>
-      <description>Hugo is a static site engine written in Go.
-It makes use of a variety of open source projects including:
-Cobra Viper J Walter Weatherman Cast Learn more and contribute on GitHub.</description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://forrestchu.github.io/post/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://forrestchu.github.io/post/goisforlovers/</guid>
-      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in Go templates.
-This document is a brief primer on using Go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://forrestchu.github.io/post/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://forrestchu.github.io/post/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at Install Hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
-Clone the Hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313 Corresponding pseudo commands:</description>
     </item>
     
   </channel>
